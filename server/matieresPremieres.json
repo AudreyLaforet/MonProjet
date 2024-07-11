@@ -1,0 +1,9 @@
+[
+    { "nom": "frêne", "type": "Bois" },
+    { "nom": "chêne", "type": "Bois" },
+    { "nom": "noyer", "type": "Bois" },
+    { "nom": "acier inox", "type": "Fer" },
+    { "nom": "aluminum", "type": "Fer" },
+    { "nom": "Plastique", "type": "Plastique" }
+  ]
+  

@@ -1,0 +1,25 @@
+
+doctype html
+html
+  head
+    title Liste des Matières Premières, Entreprises et Catégories de Meuble
+    link(rel='stylesheet', href='/stylesheets/style.css') 
+
+  body
+    h1 Matières Premières
+    ul
+      each matiere in matieresPremieres
+        li= matiere.nom + ' - ' + matiere.type
+
+    h1 Entreprises et leurs Matières Premières
+    ul
+      each entreprise in entreprises
+        li
+          strong= entreprise.nom
+          |  - Matières Premières : #{entreprise.matieres.join(', ')}
+
+    h1 Catégories de Meuble
+    ul
+      each categorie in categoriesMeubles
+        li= categorie.nom
+

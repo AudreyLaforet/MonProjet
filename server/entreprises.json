@@ -1,0 +1,6 @@
+[
+    { "nom": "BBois", "matieres": ["frêne", "chêne", "noyer"] },
+    { "nom": "MetaLo", "matieres": ["acier inox", "aluminum"] },
+    { "nom": "pPlastique", "matieres": ["Plastique"] }
+  ]
+  
